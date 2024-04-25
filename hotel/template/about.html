@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{%load static%}
+{% block title %}
+About
+{% endblock %}
+
+{% block content %}
+<section class="py-3 py-md-5">
+  <div class="container">
+    <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+      <div class="col-12 col-lg-6 col-xl-5">
+        <img class="img-fluid rounded" loading="lazy" src="{% static 'images/img3.jpg' %}" alt="About 1" style="max-width: 100%; height: auto;" />
+      </div>
+      <div class="col-12 col-lg-6 col-xl-7">
+        <div class="row justify-content-xl-center">
+          <div class="col-12 col-xl-11">
+            <h2 class="mb-3">Welcome to Hotel Thirsty!</h2>
+            <p class="lead fs-4 text-secondary mb-3">At Hotel Thirsty, we are dedicated to providing you with a seamless and enjoyable booking experience. Our platform offers a range of features to ensure that your stay with us is comfortable and stress-free.</p>
+            <p class="mb-5">Whether you're traveling for business or leisure, our user-friendly website allows you to easily search for available rooms, view amenities, and make secure bookings. Our team is committed to providing personalized service and ensuring that your needs are met throughout your stay.</p>
+            <div class="row gy-4 gy-md-0 gx-xxl-5X">
+              <div class="col-12 col-md-6">
+                <div class="d-flex">
+                  <div class="me-4 text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                      <path d="M12.354 4.646a.5.5 0 1 1 .708.708l-7 7a.5.5 0 0 1-.708 0l-4-4a.5.5 0 1 1 .708-.708L5 10.293l6.646-6.647z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="h4 mb-3">Easy Booking Process</h2>
+                    <p class="text-secondary mb-0">Our intuitive booking system allows you to quickly find available rooms, select your preferences, and complete your reservation with ease.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6">
+                <div class="d-flex">
+                  <div class="me-4 text-primary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-calendar2-check-fill" viewBox="0 0 16 16">
+                      <path d="M5.5 11.5l-1.5 1.5-1.5-1.5a.5.5 0 0 1 0-.707l2-2a.5.5 0 0 1 .708 0L10.5 12l.354-.354a.5.5 0 0 1 .708 0l2 2a.5.5 0 0 1 0 .707l-1.5 1.5-1.5-1.5a.5.5 0 0 1-.707 0L9 13l-.354.354a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 0-.707l1.5-1.5a.5.5 0 0 1 .707 0l1.5 1.5a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 1 .707 0l.354.354L5.5 11.5z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <h2 class="h4 mb-3">Flexible Reservation Options</h2>
+                    <p class="text-secondary mb-0">Choose from a variety of reservation options, including flexible check-in/check-out times, special requests, and package deals to suit your preferences.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

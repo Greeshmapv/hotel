@@ -1,0 +1,33 @@
+.nav li a {
+    color: brown(244,23,200); 
+    font-size: 25px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: brown(244,23,200); 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#navbar-brand {
+    color: aqua;
+    font-family: 'Lucida Console', 'Courier New', monospace, sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: deeppink;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+.navbar-inverse {
+    background-color: #333;
+    border-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:focus, 
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: #080808;
+}
